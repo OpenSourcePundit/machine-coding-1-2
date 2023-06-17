@@ -1,6 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
+import {Routes,Route,Navigate,} from 'react-router-dom';
+
+import {SearchPage} from './pages/searchPage';
+import {HomePage} from './pages/homePage';
+import {NavBar} from './component/navbar';
+
 function App() {
   return (
     <div className="App">
